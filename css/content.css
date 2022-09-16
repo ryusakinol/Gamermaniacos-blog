@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-    width: 65%;
+    width: 70%;
     height: 100%;
     margin-right: auto;
     margin-left: auto;
@@ -20,6 +20,11 @@ main {
 }
 
 p::selection {
+    background: red;
+    color: white;
+}
+
+article::selection {
     background: red;
     color: white;
 }
